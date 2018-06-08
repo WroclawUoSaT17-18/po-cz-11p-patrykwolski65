@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Extchange</string>
+    <string name="url">http://api.nbp.pl/</string>
+</resources>

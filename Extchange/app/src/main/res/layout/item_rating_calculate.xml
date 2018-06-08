@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="USD"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="dolar amerykański"
+        android:textColor="#711471" />
+
+    <TextView
+        android:id="@+id/text_mid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="3.66 PLN"
+        android:textColor="#1a8e0f"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000" />
+
+</LinearLayout>
